@@ -8,7 +8,7 @@
 #include <unistd.h>
 int main()
 {
-    mkdir("/home/guiji2387/vscodefile/.vscode/ vscode/1/guiji", 0755);
+    mkdir("/home/guiji2387/vscodefile/.vscode/vscode/1/guiji", 0755);
     std::cout << errno << ":" << strerror(errno) << std::endl;
 
     perror("调用mkdir失败");
